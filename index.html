@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="Messaggio.css" />
+    <link rel="stylesheet" href="Form.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="formColumn">
+      <form>
+        <input type="text" value="text here..." /><br />
+        <p id="joke">Come lo chiami un vergine dell'alabama?</p>
+        <input type="button" value="Make me laugh!" id="inputButton" />
+      </form>
+    </div>
+    <div id="colonnaMessaggio">
+      <div id="buttonContainer">
+        <button onclick="displayExitContainer()" id="button">BUTTON</button>
+      </div>
+
+      <div id="exitContainer">
+        This is a message.<br />
+        <button onclick="hideExitContainer()" id="exit">EXIT</button>
+      </div>
+    </div>
+    <script src="Messaggio.js"></script>
+    <script src="Form.js"></script>
+  </body>
+</html>

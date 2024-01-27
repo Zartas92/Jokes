@@ -1,0 +1,36 @@
+body {
+    background-color: brown;
+    margin: 0;
+}
+
+#colonnaMessaggio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exitContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 20%;
+    margin: 0;
+    border: solid black;
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: burlywood;
+    font-size: large;
+}
+
+#exit {
+    margin-top: 15px;
+}
